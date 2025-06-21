@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Kondreddy Mounika </span>
             from <span className="purple"> Kakinada, Andhra Pradesh</span>
             <br />
-            I have completed my becholar's degree in Computer Science and Engineering with Artificial Intelligence at
+            I have completed my Bachelor's degree in Computer Science and Engineering with Artificial Intelligence at
             <span className="purple"> Kakinada Institute of Enginnering & Technology.</span>
             <br />
             <br />

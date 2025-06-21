@@ -19,6 +19,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -26,6 +27,16 @@ function Projects() {
               title="Streaming App"
               description="A full-stack streaming platform inspired by Netflix, built with React.js, Tailwind CSS, and Node.js. Features include user authentication, personalized profiles, movie browsing by genre, real-time search, video playback, and a sleek responsive design. Backend powered by MongoDB for storing user and movie data securely."
               ghLink="https://github.com/mounikakondreddy03/Netflix"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Crop Yield Predicition"
+              description="Developed a machine learning model using Python and SVM (Support Vector Machine) techniques to predict crop yield based on various environmental factors. Built a web application using Flask for users to input data and get real-time yield predictions. The model provides accurate results, helping farmers and researchers make informed agricultural decisions."
+              ghLink="https://github.com/mounikakondreddy03/crop-yield-predicition"
             />
           </Col>
 
@@ -51,15 +62,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Crop Yield Predicition"
-              description="Developed a machine learning model using Python and SVM (Support Vector Machine) techniques to predict crop yield based on various environmental factors. Built a web application using Flask for users to input data and get real-time yield predictions. The model provides accurate results, helping farmers and researchers make informed agricultural decisions."
-              ghLink="https://github.com/mounikakondreddy03/crop-yield-predicition"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
